@@ -2,7 +2,7 @@
 
 .container {
   width:min(100%, 1440px);
-  padding-inline:$padding * 2;
+  padding-inline:$padding * 1.6;
   background:$gradient-2;
   box-shadow: $shadow-dark;
 }

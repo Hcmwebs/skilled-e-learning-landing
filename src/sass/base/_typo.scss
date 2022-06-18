@@ -1,5 +1,6 @@
-@use '../abstracts/' as * @import
-	url('https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans:500,800');
+@use '../abstracts/' as *;
+
+@import url('https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans:500,800');
 
 * {
 	margin: 0;
@@ -12,9 +13,9 @@ html {
 } /*16px*/
 
 body {
-	background: white;
-	font-family: 'Plus Jakarta Sans', sans-serif;
-	font-weight: 500;
+	background: $white;
+	font-family: $font;
+	font-weight: $medium;
 	line-height: 1.75;
 	color: #000000;
 }
@@ -29,8 +30,8 @@ h3,
 h4,
 h5 {
 	margin: 3rem 0 1.38rem;
-	font-family: 'Plus Jakarta Sans', sans-serif;
-	font-weight: 800;
+	font-family: $font;
+	font-weight: $extrabold;
 	line-height: 1.3;
 }
 

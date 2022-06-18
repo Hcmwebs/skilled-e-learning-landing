@@ -1,0 +1,8 @@
+@use'../abstracts' as *;
+
+.container {
+  width:min(100%, 1440px);
+  padding-inline:$padding * 2;
+  background:$gradient-2;
+  box-shadow: $shadow-dark;
+}

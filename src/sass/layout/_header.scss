@@ -1,0 +1,6 @@
+@use '../abstracts' as *;
+
+.header {
+	@include grid(center);
+	gap: $gap * 3.8;
+}

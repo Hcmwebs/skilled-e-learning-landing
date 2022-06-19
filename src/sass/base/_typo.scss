@@ -18,6 +18,9 @@ body {
 	font-weight: $medium;
 	line-height: 1.75;
 	color: #000000;
+	@include grid(center);
+	width: 100%;
+	min-height: 100vh;
 }
 
 p {

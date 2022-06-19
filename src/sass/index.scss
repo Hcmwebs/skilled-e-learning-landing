@@ -1,29 +1,2 @@
 @use './base/' as *;
 
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-body {
-	display: grid;
-	place-items: center;
-	min-height: 100vh;
-	width: 100%;
-	background-color: turquoise;
-	color: white;
-}
-
-.app {
-	width: min(100%, 1200px);
-	min-height: 300px;
-	padding: 10% 20%;
-	background-color: #fff;
-	color: #000;
-	border-radius: 0.25rem;
-	box-shadow: 0 3px 15px 3px rgba(0, 0, 0, 0.1);
-}
-h1 {
-	width: 300px;
-}

@@ -11,5 +11,11 @@ $white: rgb(255, 255, 255);
 
 
 $gradient-1: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(240, 241, 255) 100%);
+
 $gradient-2:linear-gradient(180deg, rgb(255, 111, 72) 0.04%, rgb(240, 42, 166) 100%);
+
+$gradient-2-hover:linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+
 $gradient-3:linear-gradient(180deg, rgb(72, 81, 255) 0%, rgb(240, 42, 166) 99.92%);
+
+$gradient-3-hover: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);

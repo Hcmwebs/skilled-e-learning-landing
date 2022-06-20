@@ -1,0 +1,38 @@
+@use '../abstracts' as *;
+
+.btn {
+	padding-block: $padding * 1.2;
+	padding-inline: $padding * 3;
+	border: none;
+	border-radius: $border-radius * 2.8;
+	@include grid(center);
+	font-size: 1rem;
+	line-height: 1.75rem;
+	font-weight: $bold;
+	color: $white;
+	transition:$transition;
+
+	&-nav {
+		background: $dark-bluish-grey;
+
+		&:hover{
+			background: $light-bluish-grey;
+		}
+	}
+
+	&-hero {
+		background: gradient-2;
+&:hover{
+	background: $gradient-2-hover;
+}
+
+	}
+
+	&-footer {
+		background: $gradient-3;
+
+		&:hover{
+			background:$gradient-3-hover;
+		}
+	}
+}

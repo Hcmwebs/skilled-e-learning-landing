@@ -12,29 +12,28 @@
 	border-radius: $border-radius * 2.8;
 	box-shadow: $shadow-light;
 	@include grid(center);
-	transition:$transition;
+	transition: $transition;
 
 	&-nav {
 		background: $dark-bluish-grey;
 
-		&:hover{
+		&:hover {
 			background: $light-bluish-grey;
 		}
 	}
 
 	&-hero {
-		background: gradient-2;
-&:hover{
-	background: $gradient-2-hover;
-}
-
+		background:$gradient-2;
+		&:hover {
+			background: $gradient-2-hover;
+		}
 	}
 
 	&-footer {
 		background: $gradient-3;
 
-		&:hover{
-			background:$gradient-3-hover;
+		&:hover {
+			background: $gradient-3-hover;
 		}
 	}
 }

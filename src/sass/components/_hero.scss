@@ -1,0 +1,11 @@
+@use '../abstracts' as *;
+
+.hero {
+	@include grid(center);
+	grid-template-columns: 1fr;
+
+	&-text {
+		text-align: center;
+		padding-inline: $padding * 1.6;
+	}
+}

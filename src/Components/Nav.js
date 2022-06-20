@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../Assets/logo-dark.svg'
-import Button from './Button'
+
 
 const Nav = () => {
 	return (

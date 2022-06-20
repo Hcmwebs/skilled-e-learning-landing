@@ -1,0 +1,14 @@
+@use '../abstracts' as *;
+
+.nav {
+	width: 100%;
+	@include grid(center);
+	grid-template-columns: repeat(2, 1fr);
+
+  .img-container {
+    justify-self: start;
+  }
+  .btn{
+    justify-self: end;
+  }
+}

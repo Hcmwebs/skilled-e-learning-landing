@@ -1,4 +1,6 @@
 import React from 'react'
+import heroMobilePng from '../Assets/image-hero-mobile.png';
+import heroMobileWebp from '../Assets/image-hero-mobile.webp'
 
 const Hero = () => {
 	return (
@@ -12,7 +14,12 @@ const Hero = () => {
 				<button className='btn btn-hero'> Get Started</button>
 			</div>
 			<div className='hero-img'>
-				<img src='' alt='' className='img' />
+				<div className='img-container'>
+					<picture>
+						<source  media ='(min-width: 768px)' srcSet ={heroMobilePng} type={heroMobilePng} />
+					</picture>
+					<img src={heroMobilePng} alt='hero' className='img' />
+				</div>
 			</div>
 		</div>
 	)

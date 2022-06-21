@@ -30,14 +30,15 @@ const Hero = () => {
 					<picture>
 						<source
 							media='(min-width: 1440px)'
-							srcSet={`${heroDesktopPng}, ${heroDesktop2xPng},${heroDesktopWebp},${heroDesktop2xWebp}`}
+							srcSet={`${heroDesktopPng} 1440w,${heroDesktop2xPng} 2x, ${heroDesktopWebp} 1440w,${heroDesktop2xWebp} 2x`}
 						/>
+
 						<source
 							media='(min-width: 768px)'
-							srcSet={`${heroTabletPng},${heroTablet2xPng},${heroTabletWebp},${heroTablet2xWebp}`}
+							srcSet={`${heroTabletPng} 768w,${heroTablet2xPng} 2x,${heroTabletWebp} 768w,${heroTablet2xWebp} 2x`}
 						/>
 						<source
-							srcSet={`${heroMobilePng},${heroMobile2xPng},${heroMobileWebp},${heroMobile2xWebp}`}
+							srcSet={`${heroMobilePng},${heroMobile2xPng} 2x,${heroMobileWebp},${heroMobile2xWebp} 2x`}
 						/>
 					</picture>
 					<img src={heroMobilePng} alt='hero' className='img' />

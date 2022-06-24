@@ -1,12 +1,19 @@
 @use '../abstracts' as *;
 
 .main {
-	background: $gradient-1;
 	width: 100%;
 	@include grid(center);
 	grid-template-columns: repeat(auto-fit, minmax(min(100%, 350px), 1fr));
-	grid-auto-rows: 259px;
-	gap: $gap * 3;
+	grid-auto-rows: 283px;
+	gap: $gap * 3.2;
+	background: $gradient-1;
+}
+
+@media (min-width: 768px) {
+	.main {
+		grid-template-columns: repeat(auto-fit, minmax(min(100%, 335px), 1fr));
+		gap: $gap;
+	}
 }
 
 @media (min-width: 1440px) {

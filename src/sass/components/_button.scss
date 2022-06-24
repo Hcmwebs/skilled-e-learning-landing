@@ -9,6 +9,7 @@
 	padding-inline: $padding * 2.4;
 	color: $white;
 	border: none;
+	outline: none;
 	border-radius: $border-radius * 2.8;
 	box-shadow: $shadow-light;
 	@include grid(center);
@@ -23,9 +24,19 @@
 	}
 
 	&-hero {
-		background:$gradient-2;
+		background: $gradient-2;
 		&:hover {
 			background: $gradient-2-hover;
+		}
+	}
+
+	&-card {
+		font-size: 1.125rem;
+		color: $pink;
+		background-color: transparent;
+		box-shadow: none;
+		&:hover {
+			color: $light-pink;
 		}
 	}
 

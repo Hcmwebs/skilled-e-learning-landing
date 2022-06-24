@@ -1,0 +1,31 @@
+@use '../abstracts' as *;
+
+.card {
+	width: 100%;
+	max-width: 350px;
+	height: 100%;
+	@include grid(center);
+	border-radius: $border-radius;
+	padding: $padding * 2.8;
+	position: relative;
+	h2 {
+		margin: 0;
+		color: $white;
+		font-size: 1.5rem;
+		font-weight: $extrabold;
+		line-height: $lineHeight * 3.2;
+	}
+
+	&-one {
+		background: $gradient-2;
+		height: 7.5rem;
+	}
+}
+
+@media (min-width: 768px) {
+	.card {
+		&-one {
+			height: 100%;
+		}
+	}
+}

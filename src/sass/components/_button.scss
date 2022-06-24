@@ -12,6 +12,7 @@
 	outline: none;
 	border-radius: $border-radius * 2.8;
 	box-shadow: $shadow-light;
+	cursor: pointer;
 	@include grid(center);
 	transition: $transition;
 
@@ -33,10 +34,13 @@
 	&-card {
 		font-size: 1.125rem;
 		color: $pink;
-		background-color: transparent;
+		background: $gradient-2;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
 		box-shadow: none;
+
 		&:hover {
-			color: $light-pink;
+			opacity: 0.8;
 		}
 	}
 

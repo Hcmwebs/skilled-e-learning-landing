@@ -6,6 +6,7 @@
 	gap: $gap * 4.8;
 
 	&-text {
+		width: 100%;
 		text-align: left;
 		@include grid(center);
 		gap: $gap * 2.4;
@@ -34,5 +35,16 @@
 @media (min-width: 768px) {
 	.hero {
 		grid-template-columns: repeat(2, 1fr);
+
+		&-text {
+			width: 398px;
+		}
+
+		&-img {
+			.img-container {
+				width: 640px;
+				height: 640px;
+			}
+		}
 	}
 }

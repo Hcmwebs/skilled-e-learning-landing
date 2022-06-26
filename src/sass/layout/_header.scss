@@ -2,5 +2,9 @@
 
 .header {
 	@include grid(center);
-	gap: $gap * 4.8;
+
+	.container {
+		@include grid(center);
+		gap: $gap * 3.8;
+	}
 }

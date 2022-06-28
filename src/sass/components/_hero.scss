@@ -35,15 +35,19 @@
 @media (min-width: 768px) {
 	.hero {
 		grid-template-columns: repeat(2, 1fr);
+		transform:translate(100px,-100px);
+		overflow-x: hidden;
 
 		&-text {
 			width: 398px;
+			max-width: 100%;
 		}
 
 		&-img {
 			.img-container {
 				width: 640px;
 				height: 640px;
+
 			}
 		}
 	}

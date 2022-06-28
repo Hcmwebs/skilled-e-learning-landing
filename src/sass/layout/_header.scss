@@ -6,6 +6,5 @@
 	.container {
 		@include grid(center);
 		gap: $gap * 3.8;
-		overflow: hidden;
 	}
 }

@@ -2,7 +2,7 @@
 
 .main {
 	width: 100%;
-	margin-block: $gap * 6.6;
+	margin-bottom: $margin * 6.6;
 
 	.container {
 		@include grid(center);
@@ -14,17 +14,17 @@
 
 @media (min-width: 768px) {
 	.main {
-		margin-block: $margin * 9.3;
+		margin-bottom: $margin * 9.3;
 		.container {
-			grid-template-columns: repeat(auto-fit, minmax(min(100%, 335px), 1fr));
-			gap: $gap;
+			grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+			gap: $gap * 3.2;
 		}
 	}
 }
 
 @media (min-width: 1440px) {
 	.main {
-		margin-block: $margin * 14;
+		margin-bottom: $margin * 14;
 		.container {
 			grid-auto-rows: 346px;
 		}

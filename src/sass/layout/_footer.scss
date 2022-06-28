@@ -2,14 +2,15 @@
 
 .footer {
 	width: 100%;
-	min-height: 7.5rem;
 	.container {
 		@include grid(center);
 		grid-template-columns: repeat(2, 1fr);
 		background-color: $dark-bluish-grey;
+		padding-block: 2rem;
 
 		.img {
 			justify-self: start;
+			max-width: 89px;
 		}
 		.btn {
 			justify-self: end;

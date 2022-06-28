@@ -5,10 +5,25 @@
 	@include grid(center);
 	grid-template-columns: repeat(2, 1fr);
 
-  .img-container {
-    justify-self: start;
-  }
-  .btn{
-    justify-self: end;
-  }
+	.img-container {
+		justify-self: start;
+	}
+	.btn {
+		justify-self: end;
+	}
+}
+
+@media (min-width: 768px) {
+	.nav {
+		.btn {
+			justify-self: start;
+		}
+	}
+}
+@media (min-width: 1440px) {
+	.nav {
+		.btn {
+			justify-self: center;
+		}
+	}
 }

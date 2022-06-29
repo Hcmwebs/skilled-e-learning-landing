@@ -1,20 +1,18 @@
 @use '../abstracts' as *;
 
 .container {
-	width: min(100%, 1440px);
+	width: min(100%, 100%);
 	padding-block: $padding * 2.2;
 	padding-inline: $padding * 1.6;
 }
 
 @media (min-width: 768px) {
 	.container {
-		width: 768px;
 		padding-inline: $padding * 3.95;
 	}
 }
 @media (min-width: 1440px) {
 	.container {
-		width: 1440px;
 		padding-inline: $padding * 16.5;
 	}
 }

@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL:](https://your-solution-url.com)
-- [Live Site URL:](https://your-live-site-url.com)
+- [Solution URL:](https://www.frontendmentor.io/solutions/project-done-with-reactjs-and-sass-xvqAhGrJI7)
+- [Live Site URL:](https://skilled-e-learning.vercel.app/)
 
 ## My process
 

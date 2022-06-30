@@ -29,32 +29,32 @@ const Hero = () => {
 				<picture>
 					<source
 						media='(min-width: 1440px)'
-						srcSet={`${heroDesktopPng} 1440w,${heroDesktop2xPng} 2x 1440w`}
+						srcSet={`${heroDesktopPng} 1440w,${heroDesktop2xPng} 2x`}
 						type='image/png'
 					/>
 
 					<source
 						media='(min-width:1440px)'
-						srcSet={`${heroDesktopWebp} 1440w , ${heroDesktop2xWebp} 2x 1440w`}
+						srcSet={`${heroDesktopWebp} 1440w , ${heroDesktop2xWebp} 2x`}
 						type='image/webp'
 					/>
 
 					<source
 						media='(min-width: 768px)'
-						srcSet={`${heroTabletPng} 768w,${heroTablet2xPng} 2x 768w`}
+						srcSet={`${heroTabletPng} 768w,${heroTablet2xPng} 2x`}
 						type='image/png'
 					/>
 					<source
 						media='(min-width:768px)'
-						srcSet={`${heroTabletWebp} 768w,${heroTablet2xWebp} 2x 768w`}
+						srcSet={`${heroTabletWebp} 768w,${heroTablet2xWebp} 2x`}
 						type='image/webp'
 					/>
 					<source
-						srcSet={`${heroMobilePng} 375w,${heroMobile2xPng} 2x 375w`}
+						srcSet={`${heroMobilePng} 375w,${heroMobile2xPng} 2x`}
 						type='image/png'
 					/>
 					<source
-						srcSet={`${heroMobileWebp},${heroMobile2xWebp} 2x 375w`}
+						srcSet={`${heroMobileWebp},${heroMobile2xWebp} 2x`}
 						type='image/webp'
 					/>
 					<img src={heroDesktopPng} alt='hero' className='img' />
